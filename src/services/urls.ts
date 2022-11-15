@@ -1,2 +1,1 @@
-export const baseUrl = '/api/liquigate';
-export const COIN_DATA_URL = '/api/coindata';
+export const baseUrl = 'https://xqalpjq6dkmp5hnd.liquigate.finance/api/liquigate';
