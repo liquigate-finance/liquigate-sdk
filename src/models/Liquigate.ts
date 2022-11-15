@@ -76,4 +76,8 @@ export class Liquigate {
       }
     }
   }
+
+  async swapAndTransfer(limitOrder: LimitOrder, destAddress: string) {
+    //TODO: Implement this
+  }
 }
