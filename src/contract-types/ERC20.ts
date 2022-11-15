@@ -87,7 +87,7 @@ export interface ERC20 {
   approve(
     _spender: string,
     _value: BigNumberish,
-    overrides?: ContractTransactionOverrides,
+    overrides?: ContractTransactionOverrides
   ): Promise<ContractTransaction>;
   /**
    * Payable: false
@@ -109,7 +109,7 @@ export interface ERC20 {
     _from: string,
     _to: string,
     _value: BigNumberish,
-    overrides?: ContractTransactionOverrides,
+    overrides?: ContractTransactionOverrides
   ): Promise<ContractTransaction>;
   /**
    * Payable: false
