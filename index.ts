@@ -1,1 +1,1 @@
-console.log('hello');
+export { Liquigate } from './src/models/Liquigate';
