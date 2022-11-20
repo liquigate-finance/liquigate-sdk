@@ -1,6 +1,7 @@
-import { ethers } from 'ethers';
+import { toBigNumberString } from '../lib/big-number-string';
+import { TokenConfig } from './TokenConfig';
 
-export interface ILimitOrderData {
+export type RawLimitOrder = {
   address: string;
   chainId: number;
   maker: {
@@ -12,7 +13,7 @@ export interface ILimitOrderData {
     amount: string;
   };
   expiry?: number;
-}
+};
 
 export class ViewLimitOrder {
   id!: string;
@@ -73,24 +74,37 @@ export class ViewLimitOrder {
 }
 
 class LimitOrder {
-  address: string;
-  chainId: number;
-  maker: {
-    asset: string;
-    amount: string;
+  address!: string;
+  chainId!: number;
+  maker!: {
+    asset: TokenConfig;
+    amount: number;
   };
-  taker: {
-    asset: string;
-    amount: string;
+  taker!: {
+    asset: TokenConfig;
+    amount: number;
   };
   expiry?: number;
 
-  constructor({ address, chainId, maker, taker, expiry }: ILimitOrderData) {
-    this.address = address;
-    this.chainId = chainId;
-    this.maker = maker;
-    this.taker = taker;
-    this.expiry = expiry;
+  constructor(partial: Partial<LimitOrder>) {
+    Object.assign(this, partial);
+  }
+
+  toRaw(): RawLimitOrder {
+    const order = {
+      ...this,
+      expiry: this.expiry?.toString(),
+      taker: {
+        asset: this.taker.asset.address,
+        amount: toBigNumberString(this.taker.amount.toString(), this.taker.asset.decimals),
+      },
+      maker: {
+        asset: this.maker.asset.address,
+        amount: toBigNumberString(this.maker.amount.toString(), this.maker.asset.decimals),
+      },
+    };
+
+    return order;
   }
 }
 

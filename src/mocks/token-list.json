@@ -1,0 +1,1207 @@
+[
+  {
+    "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+    "name": "Wrapped AVAX",
+    "symbol": "WAVAX",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://get.celer.app/cbridge-icons/AVAX.png",
+    "bridges": ["Celer"],
+    "identifiers": {
+      "coingecko": "wrapped-avax"
+    },
+    "etlStatus": {
+      "contractValidation": "TreatedAsValid",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 44328,
+      "transferRateEstimationStatus": "Static",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-07-19T09:41:54.731Z",
+    "updatedAt": "2022-11-18T01:49:14.326Z"
+  },
+  {
+    "address": "0xc38f41a296a4493ff429f1238e030924a1542e50",
+    "name": "Snowball",
+    "symbol": "SNOB",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/14347/small/snowball.png?1615879335",
+    "identifiers": {
+      "coingecko": "snowball-token"
+    },
+    "etlStatus": {
+      "contractValidation": "TreatedAsValid",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 54,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-07-19T09:41:54.737Z",
+    "updatedAt": "2022-11-19T01:48:50.328Z"
+  },
+  {
+    "address": "0x60781c2586d68229fde47564546784ab3faca982",
+    "name": "Pangolin",
+    "symbol": "PNG",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/14023/small/mXGnm3Eo_400x400.jpg?1644478963",
+    "identifiers": {
+      "coingecko": "pangolin"
+    },
+    "etlStatus": {
+      "contractValidation": "TreatedAsValid",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 235,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-07-19T09:41:54.737Z",
+    "updatedAt": "2022-11-19T01:48:50.381Z"
+  },
+  {
+    "address": "0xe896cdeaac9615145c0ca09c8cd5c25bced6384c",
+    "name": "PenguinToken",
+    "symbol": "PEFI",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/14643/small/pefi.png?1643460876",
+    "identifiers": {
+      "coingecko": "penguin-finance"
+    },
+    "etlStatus": {
+      "contractValidation": "TreatedAsValid",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 93,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-07-19T09:41:54.738Z",
+    "updatedAt": "2022-09-07T08:03:10.581Z"
+  },
+  {
+    "address": "0x617724974218a18769020a70162165a539c07e8a",
+    "name": "OliveCash Token",
+    "symbol": "OLIVE",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/14880/small/2_%285%29.png?1618887745",
+    "identifiers": {
+      "coingecko": "olivecash"
+    },
+    "etlStatus": {
+      "contractValidation": "TreatedAsValid",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 27,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-07-19T09:41:54.738Z",
+    "updatedAt": "2022-09-07T08:03:10.584Z"
+  },
+  {
+    "address": "0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084",
+    "name": "LydiaFinance Token",
+    "symbol": "LYD",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/15195/small/512_pure_logo.png?1620083279",
+    "identifiers": {
+      "coingecko": "lydia-finance"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 62,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.315Z",
+    "updatedAt": "2022-09-07T08:03:10.605Z"
+  },
+  {
+    "address": "0x846d50248baf8b7ceaa9d9b53bfd12d7d7fbb25a",
+    "name": "VersoToken",
+    "symbol": "VSO",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/15169/small/versa.PNG?1620011126",
+    "identifiers": {
+      "coingecko": "verso"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 46,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.315Z",
+    "updatedAt": "2022-11-10T01:57:23.445Z"
+  },
+  {
+    "address": "0x65378b697853568da9ff8eab60c13e1ee9f4a654",
+    "name": "Husky",
+    "symbol": "HUSKY",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/17812/small/husky.png?1629721413",
+    "identifiers": {
+      "coingecko": "husky-avax"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 47,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.315Z",
+    "updatedAt": "2022-09-07T08:03:10.714Z"
+  },
+  {
+    "address": "0xd1c3f94de7e5b45fa4edbba472491a9f4b166fc4",
+    "name": "Avalaunch",
+    "symbol": "XAVA",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/15466/small/avalaunch.png?1620913298",
+    "identifiers": {
+      "coingecko": "avalaunch"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 82,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.315Z",
+    "updatedAt": "2022-09-07T08:03:10.727Z"
+  },
+  {
+    "address": "0x61ecd63e42c27415696e10864d70ecea4aa11289",
+    "name": "RUGPULL",
+    "symbol": "RUGPULL",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/19734/small/Rugpull-P-Logo-200x200.png?1635781229",
+    "identifiers": {
+      "coingecko": "rugpull-prevention"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 34,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.315Z",
+    "updatedAt": "2022-09-07T08:03:10.815Z"
+  },
+  {
+    "address": "0x78ea17559b3d2cf85a7f9c2c704eda119db5e6de",
+    "name": "Avaware",
+    "symbol": "AVE",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/16927/small/avaware.png?1626182919",
+    "identifiers": {
+      "coingecko": "avaware"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 62,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.316Z",
+    "updatedAt": "2022-09-07T08:03:11.107Z"
+  },
+  {
+    "address": "0x8d88e48465f30acfb8dac0b3e35c9d6d7d36abaf",
+    "name": "Canary",
+    "symbol": "CNR",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/16764/small/logo_-_2021-06-29T113338.436.png?1624937628",
+    "identifiers": {
+      "coingecko": "canary"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 54,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-09-07T08:03:11.239Z"
+  },
+  {
+    "address": "0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
+    "name": "JoeToken",
+    "symbol": "JOE",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/17569/small/joe_200x200.png?1628497750",
+    "identifiers": {
+      "coingecko": "joe"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 420,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-11-14T01:48:52.270Z"
+  },
+  {
+    "address": "0x264c1383ea520f73dd837f915ef3a732e204a493",
+    "name": "Binance",
+    "symbol": "BNB",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/12591/small/binance-coin-logo.png?1600947313",
+    "identifiers": {
+      "coingecko": "wbnb"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 35,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-11-14T01:48:52.525Z"
+  },
+  {
+    "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+    "name": "Wrapped Ether",
+    "symbol": "WETH.e",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://get.celer.app/cbridge-icons/ETH.png",
+    "bridges": ["Celer"],
+    "identifiers": {
+      "coingecko": "weth"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 243,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-11-16T01:51:17.071Z"
+  },
+  {
+    "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC.e",
+    "decimals": 8,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png?1548822744",
+    "identifiers": {
+      "coingecko": "wrapped-bitcoin"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 100,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-11-14T01:48:52.771Z"
+  },
+  {
+    "address": "0x5947bb275c521040051d82396192181b413227a3",
+    "name": "Chainlink Token",
+    "symbol": "LINK.e",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png?1547034700",
+    "identifiers": {
+      "coingecko": "chainlink"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 79,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-11-14T01:48:52.797Z"
+  },
+  {
+    "address": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI.e",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/9956/small/4943.png?1636636734",
+    "identifiers": {
+      "coingecko": "dai"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 553,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-11-09T01:51:32.371Z"
+  },
+  {
+    "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+    "name": "Tether USD",
+    "symbol": "USDT.e",
+    "decimals": 6,
+    "transferRate": 1,
+    "icon": "https://get.celer.app/cbridge-icons/USDT.png",
+    "bridges": ["Celer"],
+    "identifiers": {
+      "coingecko": "tether-avalanche-bridged-usdt-e"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 1247,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-11-18T01:49:26.599Z"
+  },
+  {
+    "address": "0x63a72806098bd3d9520cc43356dd78afe5d386d9",
+    "name": "Aave Token",
+    "symbol": "AAVE.e",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/12645/small/AAVE.png?1601374110",
+    "identifiers": {
+      "coingecko": "aave"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 48,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-08-01T11:41:16.317Z",
+    "updatedAt": "2022-11-14T01:48:52.903Z"
+  },
+  {
+    "address": "0x59414b3089ce2af0010e7523dea7e2b35d776ec7",
+    "name": "Yak Token",
+    "symbol": "YAK",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/17654/small/yieldyak.png?1665824438",
+    "identifiers": {
+      "coingecko": "yield-yak"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 47,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:15.488Z",
+    "updatedAt": "2022-09-07T08:03:11.379Z"
+  },
+  {
+    "address": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
+    "name": "BENQI",
+    "symbol": "QI",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/16362/small/GergDDN3_400x400.jpg?1644984441",
+    "identifiers": {
+      "coingecko": "benqi"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 76,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:15.489Z",
+    "updatedAt": "2022-09-07T08:03:11.414Z"
+  },
+  {
+    "address": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+    "name": "USD Coin",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "transferRate": 1,
+    "icon": "https://get.celer.app/cbridge-icons/USDC.png",
+    "bridges": ["Celer"],
+    "identifiers": {
+      "coingecko": "usd-coin-avalanche-bridged-usdc-e"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 2645,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:16.847Z",
+    "updatedAt": "2022-11-19T01:49:03.429Z"
+  },
+  {
+    "address": "0x4fbf0429599460d327bd5f55625e30e4fc066095",
+    "name": "TSD Stablecoin",
+    "symbol": "TSD",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://get.celer.app/cbridge-icons/TSD.png",
+    "bridges": ["Celer"],
+    "identifiers": {
+      "coingecko": "teddy-dollar"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 43,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:18.605Z",
+    "updatedAt": "2022-11-19T01:49:05.230Z"
+  },
+  {
+    "address": "0x130966628846bfd36ff31a822705796e8cb8c18d",
+    "name": "Magic Internet Money",
+    "symbol": "MIM",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/16786/small/mimlogopng.png?1624979612",
+    "identifiers": {
+      "coingecko": "magic-internet-money"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 2992,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:41.998Z",
+    "updatedAt": "2022-11-14T01:49:04.059Z"
+  },
+  {
+    "address": "0xb54f16fb19478766a268f172c9480f8da1a7c9c3",
+    "name": "Time",
+    "symbol": "TIME",
+    "decimals": 9,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/18126/small/time.PNG?1630621941",
+    "identifiers": {
+      "coingecko": "wonderland"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 85,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:45.674Z",
+    "updatedAt": "2022-09-07T08:03:12.494Z"
+  },
+  {
+    "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+    "name": "Frax",
+    "symbol": "FRAX",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506",
+    "identifiers": {
+      "coingecko": "frax"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 37,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:49.852Z",
+    "updatedAt": "2022-09-07T08:03:12.709Z"
+  },
+  {
+    "address": "0xce1bffbd5374dac86a2893119683f4911a2f7814",
+    "name": "Spell Token",
+    "symbol": "SPELL",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/15861/small/abracadabra-3.png?1622544862",
+    "identifiers": {
+      "coingecko": "spell-token"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 61,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:49.852Z",
+    "updatedAt": "2022-10-24T07:15:06.448Z"
+  },
+  {
+    "address": "0xcc2f1d827b18321254223df4e84de399d9ff116c",
+    "name": "SmartCoin",
+    "symbol": "SMRT",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/19199/small/smrt.png?1634718420",
+    "identifiers": {
+      "coingecko": "smartcoin-2"
+    },
+    "etlStatus": {
+      "contractValidation": "NoData",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 64,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-09-23T17:48:50.968Z",
+    "updatedAt": "2022-09-07T08:03:13.636Z"
+  },
+  {
+    "address": "0x027dbca046ca156de9622cd1e2d907d375e53aa7",
+    "name": "Ampleforth secured by Meter Passport",
+    "symbol": "AMPL",
+    "decimals": 9,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/4708/small/Ampleforth.png?1561684250",
+    "identifiers": {
+      "coingecko": "ampleforth"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 35,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-10-01T05:43:57.798Z",
+    "updatedAt": "2022-11-07T07:58:35.315Z"
+  },
+  {
+    "address": "0xb2a85c5ecea99187a977ac34303b80acbddfa208",
+    "name": "ROCO",
+    "symbol": "ROCO",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/19234/small/86109466.png?1634769540",
+    "identifiers": {
+      "coingecko": "roco-finance"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 31,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-10-20T05:26:04.109Z",
+    "updatedAt": "2022-09-07T08:03:14.681Z"
+  },
+  {
+    "address": "0x6d923f688c7ff287dc3a5943caeefc994f97b290",
+    "name": "SmarterCoin",
+    "symbol": "SMRTr",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/19634/small/kXN8SJ0.png?1635735394",
+    "identifiers": {
+      "coingecko": "smart-coin-smrtr"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 54,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-10-30T05:27:04.779Z",
+    "updatedAt": "2022-09-07T08:03:14.856Z"
+  },
+  {
+    "address": "0xa32608e873f9ddef944b24798db69d80bbb4d1ed",
+    "name": "CRA",
+    "symbol": "CRA",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://get.celer.app/cbridge-icons/CRA.png",
+    "bridges": ["Celer"],
+    "identifiers": {
+      "coingecko": "crabada"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 27,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-11-04T05:27:38.480Z",
+    "updatedAt": "2022-09-07T08:03:15.026Z"
+  },
+  {
+    "address": "0x100cc3a819dd3e8573fd2e46d1e66ee866068f30",
+    "name": "Dragon Crypto Aurum",
+    "symbol": "DCAU",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/20226/small/7f7e57.jpeg?1656977391",
+    "identifiers": {
+      "coingecko": "dragon-crypto-aurum"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 28,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-11-05T06:03:26.308Z",
+    "updatedAt": "2022-09-07T08:03:15.069Z"
+  },
+  {
+    "address": "0x7d1232b90d3f809a54eeaeebc639c62df8a8942f",
+    "name": "Snowbank",
+    "symbol": "SB",
+    "decimals": 9,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/19947/small/sb.png?1636337110",
+    "identifiers": {
+      "coingecko": "snowbank"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 26,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-11-08T05:24:40.792Z",
+    "updatedAt": "2022-09-07T08:03:15.195Z"
+  },
+  {
+    "address": "0x0da67235dd5787d67955420c84ca1cecd4e5bb3b",
+    "name": "Wrapped MEMO",
+    "symbol": "wMEMO",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/22392/small/wMEMO.png?1665832927",
+    "identifiers": {
+      "coingecko": "wrapped-memory"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 31,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-11-08T05:24:40.792Z",
+    "updatedAt": "2022-09-07T08:03:15.201Z"
+  },
+  {
+    "address": "0xf693248f96fe03422fea95ac0afbbbc4a8fdd172",
+    "name": "Treasure Under Sea",
+    "symbol": "TUS",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://get.celer.app/cbridge-icons/TUS.png",
+    "bridges": ["Celer"],
+    "identifiers": {
+      "coingecko": "treasure-under-sea"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 26,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-11-13T17:25:01.411Z",
+    "updatedAt": "2022-09-07T08:03:15.466Z"
+  },
+  {
+    "address": "0xb8ef3a190b68175000b74b4160d325fd5024760e",
+    "name": "R U Generous",
+    "symbol": "RUG",
+    "decimals": 9,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/20708/small/nnKwMye.png?1637573199",
+    "identifiers": {
+      "coingecko": "r-u-generous"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 42,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-11-14T17:25:07.659Z",
+    "updatedAt": "2022-09-07T08:03:15.541Z"
+  },
+  {
+    "address": "0x8ae8be25c23833e0a01aa200403e826f611f9cd2",
+    "name": "CRAFT",
+    "symbol": "CRAFT",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/20934/small/3mrl6Lfw_400x400.jpg?1638003612",
+    "identifiers": {
+      "coingecko": "talecraft"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 30,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-11-24T05:26:48.788Z",
+    "updatedAt": "2022-09-07T08:03:16.295Z"
+  },
+  {
+    "address": "0x321e7092a180bb43555132ec53aaa65a5bf84251",
+    "name": "Governance OHM",
+    "symbol": "gOHM",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/21129/small/token_wsOHM_logo.png?1638764900",
+    "identifiers": {
+      "coingecko": "governance-ohm"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 48,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-11-29T05:25:07.098Z",
+    "updatedAt": "2022-09-07T08:03:17.172Z"
+  },
+  {
+    "address": "0x8f47416cae600bccf9530e9f3aeaa06bdd1caa79",
+    "name": "THOR v2",
+    "symbol": "THOR",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/21322/small/logo_%284%29.png?1642666510",
+    "identifiers": {
+      "coingecko": "thor"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 43,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-12-07T05:25:32.154Z",
+    "updatedAt": "2022-10-24T07:15:33.357Z"
+  },
+  {
+    "address": "0xec3492a2508ddf4fdc0cd76f31f340b30d1793e6",
+    "name": "Colony Token",
+    "symbol": "CLY",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/21358/small/colony.PNG?1639013005",
+    "identifiers": {
+      "coingecko": "colony"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 35,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-12-07T17:25:25.926Z",
+    "updatedAt": "2022-09-07T08:03:19.599Z"
+  },
+  {
+    "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "transferRate": 1,
+    "icon": "https://get.celer.app/cbridge-icons/USDC.png",
+    "bridges": ["Celer"],
+    "identifiers": {
+      "coingecko": "usd-coin"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 1115,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-12-15T05:25:39.690Z",
+    "updatedAt": "2022-11-17T01:50:47.021Z"
+  },
+  {
+    "address": "0x026187bdbc6b751003517bcb30ac7817d5b766f8",
+    "name": "Defrost Finance H2O",
+    "symbol": "H2O",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/23818/small/h2o.png?1645514007",
+    "identifiers": {
+      "coingecko": "defrost-finance-h2o"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 29,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-12-15T17:25:35.098Z",
+    "updatedAt": "2022-09-07T08:03:23.296Z"
+  },
+  {
+    "address": "0x22d4002028f537599be9f666d1c4fa138522f9c8",
+    "name": "Platypus",
+    "symbol": "PTP",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/21724/small/7r2U_2Ig_400x400.jpg?1639961666",
+    "identifiers": {
+      "coingecko": "platypus-finance"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 41,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-12-16T17:25:57.791Z",
+    "updatedAt": "2022-10-24T07:15:50.818Z"
+  },
+  {
+    "address": "0x7761e2338b35bceb6bda6ce477ef012bde7ae611",
+    "name": "chikn egg",
+    "symbol": "EGG",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/21811/small/EggToken_200_Transparent.png?1640069901",
+    "identifiers": {
+      "coingecko": "chikn-egg"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 50,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-12-20T05:25:32.143Z",
+    "updatedAt": "2022-11-14T13:55:51.056Z"
+  },
+  {
+    "address": "0xb84527d59b6ecb96f433029ecc890d4492c5dce1",
+    "name": "TOMB",
+    "symbol": "TOMB",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/16133/small/tomb_icon_noBG.png?1623055476",
+    "identifiers": {
+      "coingecko": "tomb"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 38,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-12-21T05:25:27.116Z",
+    "updatedAt": "2022-09-07T08:03:25.614Z"
+  },
+  {
+    "address": "0xb355f4f4cc84a9429a59d5c2b98d77016f7ec482",
+    "name": "BitcoinBR",
+    "symbol": "BTCBR",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/21205/small/btcbr.png?1661666691",
+    "identifiers": {
+      "coingecko": "bitcoin-br"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 67,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2021-12-26T05:25:58.690Z",
+    "updatedAt": "2022-10-02T05:49:41.156Z"
+  },
+  {
+    "address": "0xb599c3590f42f8f995ecfa0f85d2980b76862fc1",
+    "name": "UST (Wormhole)",
+    "symbol": "UST",
+    "decimals": 6,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/21150/small/UST_wh_small.png?1644223065",
+    "identifiers": {
+      "coingecko": "terrausd-wormhole"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 76,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-01-02T05:24:37.573Z",
+    "updatedAt": "2022-10-24T07:16:15.118Z"
+  },
+  {
+    "address": "0xd036414fa2bcbb802691491e323bff1348c5f4ba",
+    "name": "Mu Coin",
+    "symbol": "MU",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/24884/small/coingeckomucoin.png?1649236392",
+    "identifiers": {
+      "coingecko": "mu-coin"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 110,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-01-05T17:24:55.902Z",
+    "updatedAt": "2022-11-18T13:58:41.287Z"
+  },
+  {
+    "address": "0x3eefb18003d033661f84e48360ebecd181a84709",
+    "name": "Islander",
+    "symbol": "ISA",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/22375/small/islander-new-logo.png?1649051752",
+    "identifiers": {
+      "coingecko": "islander"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 37,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-02-23T17:28:28.951Z",
+    "updatedAt": "2022-10-24T07:16:19.930Z"
+  },
+  {
+    "address": "0x5541d83efad1f281571b343977648b75d95cdac2",
+    "name": "Grape Finance",
+    "symbol": "GRAPE",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/22718/small/grape.png?1642474204",
+    "identifiers": {
+      "coingecko": "grape-finance"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 52,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-02-23T17:28:28.952Z",
+    "updatedAt": "2022-10-24T07:16:20.060Z"
+  },
+  {
+    "address": "0xc55036b5348cfb45a932481744645985010d3a44",
+    "name": "Wine Shares",
+    "symbol": "WINE",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/22739/small/gshare.png?1642497110",
+    "identifiers": {
+      "coingecko": "wine-shares"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 27,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-02-23T17:28:29.015Z",
+    "updatedAt": "2022-09-07T08:03:30.780Z"
+  },
+  {
+    "address": "0x2b2c81e08f1af8835a78bb2a90ae924ace0ea4be",
+    "name": "Staked AVAX",
+    "symbol": "sAVAX",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/23657/small/savax_blue.png?1644989825",
+    "identifiers": {
+      "coingecko": "benqi-liquid-staked-avax"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 51,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-02-23T17:28:29.077Z",
+    "updatedAt": "2022-11-19T01:53:25.983Z"
+  },
+  {
+    "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+    "name": "TetherToken",
+    "symbol": "USDt",
+    "decimals": 6,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/325/small/tether.png?1667933073",
+    "identifiers": {
+      "coingecko": "tether"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 164,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-02-23T17:28:29.140Z",
+    "updatedAt": "2022-11-16T13:59:39.726Z"
+  },
+  {
+    "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+    "name": "Elk",
+    "symbol": "ELK-eb57642040be42185f49c52f7e9b38f8eeee",
+    "decimals": 18,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/17813/small/elk.png?1629336971",
+    "identifiers": {
+      "coingecko": "elk-finance"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 46,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-05-12T15:16:36.048Z",
+    "updatedAt": "2022-11-19T01:56:49.902Z"
+  },
+  {
+    "address": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
+    "name": "Bitcoin",
+    "symbol": "BTC.b",
+    "decimals": 8,
+    "transferRate": 1,
+    "icon": "https://assets.coingecko.com/coins/images/26115/small/btcb.png?1655921693",
+    "identifiers": {
+      "coingecko": "bitcoin-avalanche-bridged-btc-b"
+    },
+    "etlStatus": {
+      "contractValidation": "Unchecked",
+      "circleEligability": "CircleEligable",
+      "manualAction": "None",
+      "poolCount": 45,
+      "transferRateEstimationStatus": "Dynamic",
+      "transferRateEstimation": 1
+    },
+    "createdAt": "2022-06-23T05:26:05.300Z",
+    "updatedAt": "2022-11-18T14:05:10.046Z"
+  }
+]
