@@ -52,6 +52,7 @@ await liquigate.approveTokenSpending(TOKEN_ADDRESS, amount);
 #### Create Trade
 
 ```typescript
+const tokenList = await liquigate.getSupportedTokens(1);
 const walletAddress = 'XXXXXXXXXXXXXXXXXXX';
 const tokenList = await liquigate.getSupportedTokens(1);
 const makerAmount = 5.1; // Amount should be with no decimals conversion;
