@@ -1,5 +1,5 @@
 import { ethers } from 'ethers';
-import LimitOrder, { ILimitOrderData } from '../models/LimitOrder';
+import { RawLimitOrder } from '../models/LimitOrder';
 // All properties on a domain are optional
 const getDomain = (chainId: number, verifyingContract: string) => ({
   name: 'LiquiGate',
@@ -30,7 +30,7 @@ const limitOrderTypes = {
 export const sign = async (
   signer: ethers.providers.JsonRpcSigner,
   chainId: number,
-  limitOrder: LimitOrder,
+  limitOrder: RawLimitOrder,
   orderContractAddress: string
 ) => {
   const order = {
@@ -53,7 +53,7 @@ export const sign = async (
 export const verify = (
   expectedAddress: string,
   chainId: number,
-  order: LimitOrder,
+  order: RawLimitOrder,
   signature: string,
   orderContractAddress: string
 ): boolean => {

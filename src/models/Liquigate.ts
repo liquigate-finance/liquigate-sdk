@@ -1,4 +1,3 @@
-import { JsonRpcSigner } from '@ethersproject/providers';
 import { ethers } from 'ethers';
 import { createLimitOrder, getChainTokens } from '../services';
 import { getUserTokensBalances } from '../services/get-user-tokens-balances';
@@ -50,7 +49,11 @@ export class Liquigate {
       const tokenContract = new ethers.Contract(token, ERC20ABI as any, this.signer) as never as ERC20;
       const decimals = await tokenContract.decimals();
       const amountWithDecimals = ethers.utils.parseUnits(amount.toString(), decimals);
-      const transaction = await tokenContract.approve('', amountWithDecimals);
+      const isAllowed = this.checkAllowance(token, amount, this.contracts?.limitOrder as string);
+      if (!isAllowed) {
+        return isAllowed;
+      }
+      const transaction = await tokenContract.approve(this.contracts?.limitOrder as any, amountWithDecimals);
       await transaction.wait();
       return true;
     } catch (error: any) {
@@ -59,15 +62,31 @@ export class Liquigate {
       }
     }
   }
+
   async swapTokens(limitOrder: LimitOrder) {
     if (!this.contracts?.limitOrder) {
       return;
     }
 
+    const isAllowed = await this.checkAllowance(
+      limitOrder.maker.asset.address,
+      Number(limitOrder.maker.amount),
+      this.contracts.limitOrder as string
+    );
+
+    if (!isAllowed) {
+      throw new Error('Invalid order request, limit order contract is not allowed');
+    }
+
     try {
       const { chainId } = await this.provider.getNetwork();
-      const signature = await LimitOrderSig.sign(this.signer as any, chainId, limitOrder, this.contracts?.limitOrder);
-      await createLimitOrder(limitOrder, signature);
+      const signature = await LimitOrderSig.sign(
+        this.signer as any,
+        chainId,
+        limitOrder.toRaw(),
+        this.contracts?.limitOrder
+      );
+      await createLimitOrder(limitOrder.toRaw(), signature);
 
       return signature;
     } catch (error: any) {
@@ -79,5 +98,19 @@ export class Liquigate {
 
   async swapAndTransfer(limitOrder: LimitOrder, destAddress: string) {
     //TODO: Implement this
+  }
+
+  async getAllowance(token: string, spender: string): Promise<ethers.BigNumber> {
+    const tokenContract = new ethers.Contract(token, ERC20ABI as any, this.signer) as never as ERC20;
+    return await tokenContract.allowance(await this.signer.getAddress(), spender);
+  }
+
+  private async checkAllowance(token: string, amount: number, spender: string) {
+    const tokenContract = new ethers.Contract(token, ERC20ABI as any, this.signer) as never as ERC20;
+    const allowance = await this.getAllowance(token, spender);
+    const decimals = await tokenContract.decimals();
+    const amountWithDecimals = ethers.utils.parseUnits(amount.toString(), decimals);
+
+    return allowance.gte(amountWithDecimals);
   }
 }
