@@ -1,6 +1,6 @@
 {
-  "name": "liquigate-sdk",
-  "version": "1.0.0",
+  "name": "@liquigate/sdk",
+  "version": "0.1.0",
   "description": "liquigate sdk",
   "main": "index.ts",
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/liquigate-finance/liquigate-sdk.git"
   },
-  "author": "",
+  "author": "alonbl92456",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/liquigate-finance/liquigate-sdk/issues"
