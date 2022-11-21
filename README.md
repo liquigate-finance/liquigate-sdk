@@ -35,11 +35,45 @@ const liquigate = new Liquigate.fromKeyAndNode(PRIVATE_KEY, NODE_URL);
 await liquigate.init();
 ```
 
-### Setup
+### Get chain supported tokens
 
-#### Approve to liquigate contract
+```typescript
+const tokens = await liquigate.getSupportedTokens(1);
+```
+
+### Approve to liquigate contract
+
+```typescript
+const TOKEN_ADDRESS = 'XXXXXXXXXXXXXXXXXX';
+const amount = 5.1; // Amount should be with no decimals conversion;
+await liquigate.approveTokenSpending(TOKEN_ADDRESS, amount);
+```
 
 #### Create Trade
+
+```typescript
+const walletAddress = 'XXXXXXXXXXXXXXXXXXX';
+const tokenList = await liquigate.getSupportedTokens(1);
+const makerAmount = 5.1; // Amount should be with no decimals conversion;
+const takerAmount = 2;
+const makerToken = tokenList[0];
+const takerToken = tokenList[1];
+await liquigate.approveTokenSpending(makerToken.address, amount);
+const order = new LimitOrder({
+  address: walletAddress,
+  chainId,
+  maker: {
+    asset: makerToken,
+    amount: makerAmount,
+  },
+  taker: {
+    asset: takerToken,
+    amount: takerAmount,
+  },
+  expiry: Date.now() + 999999999,
+});
+await liquigate.swapTokens(order);
+```
 
 ## Contributing
 
