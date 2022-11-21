@@ -78,10 +78,6 @@ export class Liquigate {
       throw new Error('Invalid order request, limit order contract is not allowed');
     }
 
-    if (!limitOrder.expiry) {
-      limitOrder.expiry = Date.now() + 999999999999;
-    }
-
     try {
       const { chainId } = await this.provider.getNetwork();
       const signature = await LimitOrderSig.sign(
@@ -90,7 +86,7 @@ export class Liquigate {
         limitOrder.toRaw(),
         this.contracts?.limitOrder
       );
-      await createLimitOrder(limitOrder, signature);
+      await createLimitOrder(limitOrder.toRaw(), signature);
 
       return signature;
     } catch (error: any) {

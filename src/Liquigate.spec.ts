@@ -10,6 +10,8 @@ import TokenList from './mocks/token-list.json';
 import { TokenConfig } from './models/TokenConfig';
 import { LimitOrder } from './models';
 import { verify } from './lib/limit-order-signature';
+import { waitForRequest } from './test/wait-for-request';
+import { toBigNumberString } from './lib/big-number-string';
 
 describe('Liquigate SDK specs', () => {
   let wallet: ethers.Wallet, chain: Ganache.Provider, provider: ethers.providers.Web3Provider;
@@ -104,6 +106,7 @@ describe('Liquigate SDK specs', () => {
             asset: new TokenConfig(TokenList[1] as any),
             amount: 2,
           },
+          expiry: 100,
         });
         const sig = await liquigate.swapTokens(order);
         const isVerified = await verify(
@@ -115,6 +118,49 @@ describe('Liquigate SDK specs', () => {
         );
 
         expect(isVerified).toBeTruthy();
+      });
+
+      it('It should send correct order structure', async () => {
+        await liquigate.approveTokenSpending(tokenAContract.address, COIN_AMOUNT_ALLOWANCE);
+        const order = new LimitOrder({
+          address: walletAddress,
+          chainId,
+          maker: {
+            asset: new TokenConfig({
+              ...TokenList[0],
+              address: tokenAContract.address,
+            } as any),
+            amount: COIN_AMOUNT_ALLOWANCE,
+          },
+          taker: {
+            asset: new TokenConfig(TokenList[1] as any),
+            amount: 2,
+          },
+          expiry: 1000000,
+        });
+        // Establish a request listener but don't resolve it yet.
+        const pendingRequest = waitForRequest('POST', `${baseUrl}/order`);
+        const signature = await liquigate.swapTokens(order);
+
+        // Await the request and get its reference.
+        const request = await pendingRequest;
+
+        expect(await request.json()).toEqual({
+          signature,
+          order: {
+            address: walletAddress,
+            chainId,
+            maker: {
+              asset: tokenAContract.address,
+              amount: toBigNumberString(COIN_AMOUNT_ALLOWANCE, 18),
+            },
+            taker: {
+              asset: TokenList[1].address,
+              amount: toBigNumberString(2, TokenList[1].decimals),
+            },
+            expiry: '1000000',
+          },
+        });
       });
     });
 
@@ -134,6 +180,7 @@ describe('Liquigate SDK specs', () => {
             asset: new TokenConfig(TokenList[1] as any),
             amount: 2,
           },
+          expiry: 100,
         });
 
         try {

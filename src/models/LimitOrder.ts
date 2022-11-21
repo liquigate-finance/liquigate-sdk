@@ -73,6 +73,20 @@ export class ViewLimitOrder {
   }
 }
 
+export interface ILimitOrderData {
+  address: string;
+  chainId: number;
+  maker: {
+    asset: TokenConfig;
+    amount: number;
+  };
+  taker: {
+    asset: TokenConfig;
+    amount: number;
+  };
+  expiry: number;
+}
+
 class LimitOrder {
   address!: string;
   chainId!: number;
@@ -84,9 +98,10 @@ class LimitOrder {
     asset: TokenConfig;
     amount: number;
   };
-  expiry?: number;
+  expiry!: number;
 
-  constructor(partial: Partial<LimitOrder>) {
+  // eslint-disable-next-line @typescript-eslint/ban-types
+  constructor(partial: ILimitOrderData) {
     Object.assign(this, partial);
   }
 
